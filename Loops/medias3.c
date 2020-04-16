@@ -9,6 +9,13 @@ int main(void)
 
     while(valsRead > 0)
     {
+        if(value < 0)
+        {
+            valsRead = scanf("%d", &value);
+
+            continue;
+        }
+        
         numberOfNums++;
         
         total += value; //total += value é a mesma coisa que total = total + value.
@@ -26,4 +33,3 @@ int main(void)
 
     return (0); //Tentar não esquecer de colocar o zero entre parenteses.
 }
-
