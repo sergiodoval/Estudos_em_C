@@ -1,0 +1,1 @@
+Varredura do arquivo completa.
